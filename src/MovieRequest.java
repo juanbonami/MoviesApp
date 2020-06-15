@@ -44,6 +44,7 @@ public class MovieRequest {
                 while ((line = reader.readLine()) != null) {
                     responseContent.append(line);
                 }
+                reader.close();
             }
 
         } catch (MalformedURLException e) {
