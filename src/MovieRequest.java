@@ -32,6 +32,10 @@ public class MovieRequest {
             // handles if connection is NOT successful
             if (status > 299) {
                 reader = new BufferedReader(new InputStreamReader(connection.getErrorStream()));
+                while ((line = reader.readLine()) != null) {
+                    responseContent.append(line);
+                }
+                reader.close();
             }
 
         } catch (MalformedURLException e) {
