@@ -35,7 +35,15 @@ public class MovieRequest {
                 while ((line = reader.readLine()) != null) {
                     responseContent.append(line);
                 }
+                // ends connection
                 reader.close();
+            }
+            // handles successful connection
+            else {
+                reader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
+                while ((line = reader.readLine()) != null) {
+                    responseContent.append(line);
+                }
             }
 
         } catch (MalformedURLException e) {
