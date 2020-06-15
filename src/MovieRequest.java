@@ -18,7 +18,10 @@ public class MovieRequest {
             connection.setRequestMethod("GET");
             connection.setConnectTimeout(5000);
             connection.setReadTimeout(5000);
-            
+
+            int status = connection.getResponseCode();
+            System.out.println(status);
+
         } catch (MalformedURLException e) {
             e.printStackTrace();
         } catch (IOException e) {
