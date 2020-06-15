@@ -1,5 +1,6 @@
 import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -27,6 +28,11 @@ public class MovieRequest {
 
             int status = connection.getResponseCode();
             System.out.println(status);
+
+            // handles if connection is NOT successful
+            if (status > 299) {
+                reader = new BufferedReader(new InputStreamReader(connection.getErrorStream()));
+            }
 
         } catch (MalformedURLException e) {
             e.printStackTrace();
