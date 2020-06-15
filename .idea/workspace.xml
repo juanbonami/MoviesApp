@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37fbf2fe-a011-414f-93f7-5e8d4709fa18" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/MovieRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MovieRequest.java" afterDir="false" />
-    </list>
+    <list default="true" id="37fbf2fe-a011-414f-93f7-5e8d4709fa18" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/src/MovieRequest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="338">
-              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="32" />
+              <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,7 +139,7 @@
     <entry file="file://$PROJECT_DIR$/src/MovieRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="32" />
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

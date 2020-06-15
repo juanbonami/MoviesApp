@@ -13,6 +13,12 @@ public class MovieRequest {
             URL url = new URL("http://www.omdbapi.com/?apikey=8e2e09a4&t=");
             // opens connection
             connection = (HttpURLConnection) url.openConnection();
+
+            // setup request
+            connection.setRequestMethod("GET");
+            connection.setConnectTimeout(5000);
+            connection.setReadTimeout(5000);
+            
         } catch (MalformedURLException e) {
             e.printStackTrace();
         } catch (IOException e) {
