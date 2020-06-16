@@ -4,12 +4,12 @@ public class GuiForMovie {
 
     MovieRequest movieRequest = new MovieRequest();
 
-    JTextField textField;
-    JTextArea textArea;
-    JScrollPane scrollPane;
-    JFrame frame;
-    JButton button;
-    JLabel label;
+    static JTextField textField;
+    static JTextArea textArea;
+    static JScrollPane scrollPane;
+    static JFrame frame;
+    static JButton button;
+    static JLabel label;
     String textFromTextField;
 
     public static void main(String[] args) {
@@ -23,6 +23,6 @@ public class GuiForMovie {
         // create a new button
         button = new JButton("submit");
 
-        
+
     }
 }
