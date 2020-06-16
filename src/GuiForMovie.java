@@ -44,5 +44,11 @@ public class GuiForMovie {
         panel.add(button);
         panel.add(label);
         panel.add(scrollPane);
+
+        // add panel to frame
+        frame.add(panel);
+
+        // set size of frame
+        frame.setSize(500,600);
     }
 }
