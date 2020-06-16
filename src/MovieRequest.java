@@ -3,6 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
+import org.json.JSONObject;
 import java.net.URL;
 
 public class MovieRequest {
@@ -59,6 +60,6 @@ public class MovieRequest {
     }
 
     public  void parseResponse(String responseBody) {
-        
+        JSONObject movie = new JSONObject(responseBody);
     }
 }
