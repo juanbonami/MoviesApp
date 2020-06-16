@@ -57,5 +57,6 @@ public class GuiForMovie {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        frame.show();
     }
 }

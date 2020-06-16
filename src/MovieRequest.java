@@ -57,4 +57,8 @@ public class MovieRequest {
             connection.disconnect();
         }
     }
+
+    public  void parseResponse(String responseBody) {
+        
+    }
 }
