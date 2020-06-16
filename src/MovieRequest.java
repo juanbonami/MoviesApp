@@ -10,12 +10,14 @@ public class MovieRequest {
 
     private static HttpURLConnection connection;
 
-    public static void main(String[] args) {
+    public void executeAPI(String movieString) {
 
         // BufferedReader gets response when using HttpURLConnection
         BufferedReader reader;
         StringBuffer responseContent = new StringBuffer();
         String line;
+        String urlString = "http://www.omdbapi.com/?apikey=8e2e09a4&t=";
+        urlString = urlString + formatMovieString(movieString);
 
         try {
             URL url = new URL("http://www.omdbapi.com/?apikey=8e2e09a4&t=spider-man");
