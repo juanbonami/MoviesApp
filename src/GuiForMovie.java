@@ -28,6 +28,12 @@ public class GuiForMovie {
 
         // create new text area with 10 rows and 35 columns
         textArea = new JTextArea(10, 35);
-        
+        textArea.setLineWrap(true);
+        textArea.setWrapStyleWord(true);
+        textArea.setEditable(true);
+
+        scrollPane = new JScrollPane(textArea,
+                JScrollPane.VERTICAL_SCROLLBAR_ALWAYS,
+                JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
     }
 }
