@@ -59,7 +59,15 @@ public class MovieRequest {
         }
     }
 
-    public  void parseResponse(String responseBody) {
+
+    
+    String title;
+    String details;
+    
+    public void parseResponse(String responseBody) {
+
         JSONObject movie = new JSONObject(responseBody);
+        title = movie.getString("Title");
+        details = "Title: " + title;
     }
 }
