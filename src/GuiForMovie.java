@@ -23,6 +23,11 @@ public class GuiForMovie {
         // create a new button
         button = new JButton("submit");
 
+        // create new text field of 16 columns
+        textField = new JTextField(16);
 
+        // create new text area with 10 rows and 35 columns
+        textArea = new JTextArea(10, 35);
+        
     }
 }
