@@ -60,7 +60,20 @@ public class MovieRequest {
     }
 
 
-    
+    public String formatMovieString(String title) {
+        char[] charTitle = title.toCharArray();
+        String formattedTitle = "";
+        for (int i = 0; i < charTitle.length; i++) {
+            if (charTitle[i] == ' ') {
+                formattedTitle = formattedTitle + "+";
+            } else {
+                formattedTitle = formattedTitle + charTitle[i];
+            }
+        }
+        return formattedTitle;
+    }
+
+
     String title;
     String details;
     
