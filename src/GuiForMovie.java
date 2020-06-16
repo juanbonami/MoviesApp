@@ -35,5 +35,14 @@ public class GuiForMovie {
         scrollPane = new JScrollPane(textArea,
                 JScrollPane.VERTICAL_SCROLLBAR_ALWAYS,
                 JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
+
+        // create a panel to add button and text field
+        JPanel panel = new JPanel();
+
+        // adding button and text field to panel
+        panel.add(textField);
+        panel.add(button);
+        panel.add(label);
+        panel.add(scrollPane);
     }
 }
