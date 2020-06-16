@@ -20,7 +20,7 @@ public class MovieRequest {
         urlString = urlString + formatMovieString(movieString);
 
         try {
-            URL url = new URL("http://www.omdbapi.com/?apikey=8e2e09a4&t=spider-man");
+            URL url = new URL(urlString);
             // opens connection
             connection = (HttpURLConnection) url.openConnection();
 
