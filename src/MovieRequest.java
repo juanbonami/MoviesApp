@@ -53,6 +53,7 @@ public class MovieRequest {
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
+            // ends HttpURLConnection
             connection.disconnect();
         }
     }
