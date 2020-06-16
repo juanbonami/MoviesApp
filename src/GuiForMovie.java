@@ -50,5 +50,12 @@ public class GuiForMovie {
 
         // set size of frame
         frame.setSize(500,600);
+
+        // set look and feel within try catch block
+        try {
+            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }
