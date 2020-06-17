@@ -1,6 +1,8 @@
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
-public class GuiForMovie {
+public class GuiForMovie implements ActionListener {
 
     MovieRequest movieRequest = new MovieRequest();
 
@@ -58,5 +60,9 @@ public class GuiForMovie {
             e.printStackTrace();
         }
         frame.show();
+    }
+
+    public void actionPerformed(ActionEvent e) {
+        
     }
 }

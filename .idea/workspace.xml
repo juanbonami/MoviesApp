@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37fbf2fe-a011-414f-93f7-5e8d4709fa18" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/MovieRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MovieRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GuiForMovie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GuiForMovie.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,10 +16,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MovieRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
+            <state relative-caret-position="-676">
               <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -28,11 +28,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GuiForMovie.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1534">
-              <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+            <state relative-caret-position="559">
+              <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,8 +55,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/GuiForMovie.java" />
         <option value="$PROJECT_DIR$/src/MovieRequest.java" />
+        <option value="$PROJECT_DIR$/src/GuiForMovie.java" />
       </list>
     </option>
   </component>
@@ -187,7 +190,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/MovieRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
+        <state relative-caret-position="-676">
           <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -197,8 +200,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GuiForMovie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1534">
-          <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+        <state relative-caret-position="559">
+          <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
