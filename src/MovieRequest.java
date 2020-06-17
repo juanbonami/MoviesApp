@@ -48,6 +48,7 @@ public class MovieRequest {
                     responseContent.append(line);
                 }
                 reader.close();
+                parseResponse(responseContent.toString());
             }
             System.out.println(responseContent.toString());
 
@@ -78,11 +79,13 @@ public class MovieRequest {
 
     String title;
     String details;
+    String plot;
     
     public void parseResponse(String responseBody) {
 
         JSONObject movie = new JSONObject(responseBody);
         title = movie.getString("Title");
-        details = "Title: " + title;
+        plot = movie.getString("Plot");
+        details = "Title: " + title + "\nPlot: " + plot;
     }
 }

@@ -14,6 +14,7 @@ public class GuiForMovie implements ActionListener {
     static JLabel label;
     String textFromTextField;
 
+
     public static void main(String[] args) {
 
         // create a new frame to store text field and button
@@ -24,6 +25,10 @@ public class GuiForMovie implements ActionListener {
 
         // create a new button
         button = new JButton("submit");
+
+        GuiForMovie guiForMovie = new GuiForMovie();
+
+        button.addActionListener(guiForMovie);
 
         // create new text field of 16 columns
         textField = new JTextField(16);
