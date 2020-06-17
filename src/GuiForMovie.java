@@ -63,6 +63,18 @@ public class GuiForMovie implements ActionListener {
     }
 
     public void actionPerformed(ActionEvent e) {
-        
+        String s = e.getActionCommand();
+        if (s.equals("submit")) {
+            label.setText(textField.getText());
+            textArea.setText(movieRequest.details);
+
+            textFromTextField = textField.getText();
+            try {
+                movieRequest.executeAPI(textFromTextField);
+            } catch (Exception exception) {
+                exception.printStackTrace();
+            }
+            textField.setText(" ");
+        }
     }
 }
