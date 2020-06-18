@@ -4,15 +4,15 @@ import java.awt.event.ActionListener;
 
 public class GuiForMovie implements ActionListener {
 
-    MovieRequest movieRequest = new MovieRequest();
+    private MovieRequest movieRequest = new MovieRequest();
 
-    static JTextField textField;
-    static JTextArea textArea;
-    static JScrollPane scrollPane;
-    static JFrame frame;
-    static JButton button;
-    static JLabel label;
-    String textFromTextField;
+    private static JTextField textField;
+    private static JTextArea textArea;
+    private static JScrollPane scrollPane;
+    private static JFrame frame;
+    private static JButton button;
+    private static JLabel label;
+    private String textFromTextField;
 
 
     public static void main(String[] args) {
