@@ -99,11 +99,11 @@ public class MovieRequest {
         poster = movie.getString("Poster");
 
         details = "Title: " + title + "\nPlot: " + plot
-        + "\nYear" + year + "\nRated" + rated
-        + "\nReleased" + released + "\nRuntime" + runtime
-        + "\nGenre" + genre + "\nDirector" + director
-        + "\nWriter" + writer + "\nActors" + actors
-        + "\nLanguage" + language + "\nCountry" + country
-        + "\nAwards" + awards + "\nPoster" + poster;
+        + "\nYear: " + year + "\nRated: " + rated
+        + "\nReleased: " + released + "\nRuntime: " + runtime
+        + "\nGenre: " + genre + "\nDirector: " + director
+        + "\nWriter: " + writer + "\nActors: " + actors
+        + "\nLanguage: " + language + "\nCountry: " + country
+        + "\nAwards: " + awards + "\nPoster: " + poster;
     }
 }
