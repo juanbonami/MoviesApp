@@ -85,6 +85,19 @@ public class MovieRequest {
         JSONObject movie = new JSONObject(responseBody);
         title = movie.getString("Title");
         plot = movie.getString("Plot");
+        year = movie.getString("Year");
+        rated = movie.getString("Rated");
+        released = movie.getString("Released");
+        runtime = movie.getString("Runtime");
+        genre = movie.getString("Genre");
+        director = movie.getString("Director");
+        writer = movie.getString("Writer");
+        actors = movie.getString("Actors");
+        language = movie.getString("Language");
+        country = movie.getString("Country");
+        awards = movie.getString("Awards");
+        poster = movie.getString("Poster");
+        
         details = "Title: " + title + "\nPlot: " + plot;
     }
 }
