@@ -55,7 +55,7 @@ public class MovieRequest {
         } catch (MalformedURLException e) {
             e.printStackTrace();
         } catch (IOException e) {
-            e.printStackTrace();
+            e.getMessage();
         } finally {
             // ends HttpURLConnection
             connection.disconnect();
