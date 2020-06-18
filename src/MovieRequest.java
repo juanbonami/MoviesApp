@@ -30,7 +30,6 @@ public class MovieRequest {
             connection.setReadTimeout(5000);
 
             int status = connection.getResponseCode();
-            System.out.println(status);
 
             // handles if connection is NOT successful
             if (status > 299) {
