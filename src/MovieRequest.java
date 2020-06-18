@@ -77,9 +77,8 @@ public class MovieRequest {
     }
 
 
-    String title;
-    String details;
-    String plot;
+    String title, plot, year, rated, released, runtime, genre, director, writer, actors, language, country,
+    awards, poster, details;
     
     public void parseResponse(String responseBody) {
 
