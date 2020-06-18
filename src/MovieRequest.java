@@ -97,7 +97,13 @@ public class MovieRequest {
         country = movie.getString("Country");
         awards = movie.getString("Awards");
         poster = movie.getString("Poster");
-        
-        details = "Title: " + title + "\nPlot: " + plot;
+
+        details = "Title: " + title + "\nPlot: " + plot
+        + "\nYear" + year + "\nRated" + rated
+        + "\nReleased" + released + "\nRuntime" + runtime
+        + "\nGenre" + genre + "\nDirector" + director
+        + "\nWriter" + writer + "\nActors" + actors
+        + "\nLanguage" + language + "\nCountry" + country
+        + "\nAwards" + awards + "\nPoster" + poster;
     }
 }
