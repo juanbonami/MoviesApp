@@ -49,7 +49,6 @@ public class MovieRequest {
                 reader.close();
                 parseResponse(responseContent.toString());
             }
-            System.out.println(responseContent.toString());
 
         } catch (MalformedURLException e) {
             e.printStackTrace();
