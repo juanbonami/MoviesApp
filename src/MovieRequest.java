@@ -63,7 +63,7 @@ public class MovieRequest {
     }
 
 
-    public String formatMovieString(String title) {
+    private String formatMovieString(String title) {
         char[] charTitle = title.toCharArray();
         String formattedTitle = "";
         for (int i = 0; i < charTitle.length; i++) {
