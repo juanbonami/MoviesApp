@@ -81,7 +81,7 @@ public class MovieRequest {
     awards, poster;
     String details;
     
-    public void parseResponse(String responseBody) {
+    private void parseResponse(String responseBody) {
 
         JSONObject movie = new JSONObject(responseBody);
         title = movie.getString("Title");
